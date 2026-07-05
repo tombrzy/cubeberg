@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tomasz Brzoza — IBM Planning Analytics / TM1 Architect, Munich</title>
+  <meta name="description" content="Freelance IBM Planning Analytics / TM1 architect & consultant in Munich. 15+ years: planning & forecasting models, migrations, performance tuning. EN · DE · PL.">
+  <meta name="author" content="Tomasz Brzoza">
+  <meta name="theme-color" content="#0A0C10">
+  <meta name="color-scheme" content="dark">
+
+  <!-- EDIT ME: replace https://your-domain.com with your real domain everywhere
+       (this file, de/index.html, sitemap.xml, robots.txt) -->
+  <link rel="canonical" href="https://your-domain.com/">
+  <link rel="alternate" hreflang="en" href="https://your-domain.com/">
+  <link rel="alternate" hreflang="de" href="https://your-domain.com/de/">
+  <link rel="alternate" hreflang="x-default" href="https://your-domain.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tomasz Brzoza — IBM Planning Analytics / TM1 Architect">
+  <meta property="og:description" content="Freelance TM1 / Planning Analytics architecture, development and rescue. 15+ years, Munich, EN · DE · PL.">
+  <meta property="og:url" content="https://your-domain.com/">
+  <meta property="og:site_name" content="Tomasz Brzoza — TM1 Consulting">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:image" content="https://your-domain.com/assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://your-domain.com/assets/og.jpg">
+  <link rel="preload" as="image" href="assets/hero-bg.webp?v=3" media="(min-width: 1025px)">
+  <link rel="preload" as="image" href="assets/hero-bg-mobile.webp" media="(max-width: 1024px)">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230A0C10'/%3E%3Cpath d='M32 12 50 22v20L32 52 14 42V22z' fill='none' stroke='%23C6F24E' stroke-width='3'/%3E%3Cpath d='M14 22l18 10 18-10M32 32v20' fill='none' stroke='%23C6F24E' stroke-width='3'/%3E%3C/svg%3E">
+
+  <!-- Self-hosted fonts — no third-party requests (performance + GDPR) -->
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/spacegrotesk-400-latin.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/inter-400-latin.woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css?v=1">
+
+  <link rel="stylesheet" href="css/style.css?v=2.2">
+
+  <!-- Structured data for rich results (Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Tomasz Brzoza — IBM Planning Analytics / TM1 Consulting",
+    "description": "Freelance IBM Planning Analytics / TM1 architecture, development, migrations and performance tuning for finance teams.",
+    "email": "mailto:tom.brzy@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Munich",
+      "addressCountry": "DE"
+    },
+    "areaServed": ["DE", "AT", "CH", "EU"],
+    "availableLanguage": ["en", "de", "pl"],
+    "sameAs": ["https://www.linkedin.com/in/brzoza"],
+    "founder": {
+      "@type": "Person",
+      "name": "Tomasz Brzoza",
+      "jobTitle": "IBM Planning Analytics / TM1 Architect",
+      "sameAs": "https://www.linkedin.com/in/brzoza"
+    },
+    "knowsAbout": [
+      "IBM Planning Analytics",
+      "IBM TM1",
+      "Budgeting",
+      "Forecasting",
+      "Financial Planning",
+      "TurboIntegrator",
+      "Planning Analytics Workspace",
+      "Planning Analytics for Excel"
+    ]
+  }
+  </script>
+
+  <noscript>
+    <style>
+      #preloader { display: none !important; }
+    </style>
+  </noscript>
+</head>
+<body>
+
+  <!-- ===== Preloader ===== -->
+  <div id="preloader" aria-hidden="true">
+    <div class="pre-inner">
+      <span class="pre-name">Tomasz&nbsp;Brzoza</span>
+      <span class="pre-count mono" id="preCount">00</span>
+    </div>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header" id="siteHeader">
+    <a class="logo" href="#top">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span class="logo-text">Tomasz&nbsp;Brzoza</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#approach">Approach</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="lang" role="group" aria-label="Language">
+        <a class="lang-btn lang-link" data-lang="en" href="index.html" aria-current="page">EN</a>
+        <span class="lang-sep" aria-hidden="true">/</span>
+        <a class="lang-btn lang-link" data-lang="de" href="de/index.html" hreflang="de" lang="de">DE</a>
+      </div>
+      <a class="btn btn-small" href="#contact">Let’s talk</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Mobile menu overlay ===== -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav class="mobile-nav" aria-label="Mobile">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#approach">Approach</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="mobile-menu-foot">
+      <div class="lang" role="group" aria-label="Language">
+        <a class="lang-btn lang-link" data-lang="en" href="index.html" aria-current="page">EN</a>
+        <span class="lang-sep" aria-hidden="true">/</span>
+        <a class="lang-btn lang-link" data-lang="de" href="de/index.html" hreflang="de" lang="de">DE</a>
+      </div>
+      <a class="mobile-mail mono" href="mailto:tom.brzy@gmail.com">tom.brzy@gmail.com</a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="top">
+      <picture class="hero-bg" aria-hidden="true">
+        <source media="(max-width: 1024px)" srcset="assets/hero-bg-mobile.webp">
+        <img src="assets/hero-bg.webp?v=3" alt="" decoding="async">
+      </picture>
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="hero-eyebrow mono">IBM Planning Analytics · TM1 — Freelance Architect, Munich</p>
+
+          <h1 class="hero-title">
+            <span class="ht-line"><span class="split">Planning,</span></span>
+            <span class="ht-line ht-outline"><span class="split">architected.</span></span>
+          </h1>
+
+          <p class="hero-sub">I design, build and rescue IBM Planning Analytics / TM1 platforms — 15+ years of hands-on architecture for finance teams that have outgrown their spreadsheets.</p>
+
+          <div class="hero-ctas">
+            <a class="btn btn-accent" href="#contact">Start a project</a>
+            <a class="btn" href="#services">Explore services</a>
+          </div>
+
+          <!-- Availability pill: update or remove as needed -->
+          <p class="hero-avail mono"><span class="avail-dot" aria-hidden="true"></span><span>Available for new projects</span></p>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <span class="dim-label mono dl-1">Time</span>
+          <span class="dim-label mono dl-2">Version</span>
+          <span class="dim-label mono dl-3">Product</span>
+          <span class="dim-label mono dl-4">Region</span>
+          <span class="dim-label mono dl-5">Measure</span>
+        </div>
+      </div>
+
+      <div class="hero-foot">
+        <span class="scroll-hint mono">Scroll</span>
+        <span class="scroll-line" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <!-- ===== Marquee ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span class="marquee-chunk mono">IBM Planning Analytics&ensp;·&ensp;TM1&ensp;·&ensp;Budgeting&ensp;·&ensp;Forecasting&ensp;·&ensp;Reporting&ensp;·&ensp;TurboIntegrator&ensp;·&ensp;Rules &amp; Feeders&ensp;·&ensp;REST API&ensp;·&ensp;PAW&ensp;·&ensp;PAfE&ensp;·&ensp;</span>
+        <span class="marquee-chunk mono">IBM Planning Analytics&ensp;·&ensp;TM1&ensp;·&ensp;Budgeting&ensp;·&ensp;Forecasting&ensp;·&ensp;Reporting&ensp;·&ensp;TurboIntegrator&ensp;·&ensp;Rules &amp; Feeders&ensp;·&ensp;REST API&ensp;·&ensp;PAW&ensp;·&ensp;PAfE&ensp;·&ensp;</span>
+      </div>
+    </div>
+
+    <!-- ===== Stats ===== -->
+    <section class="stats">
+      <div class="stat" data-reveal>
+        <span class="stat-num"><span class="count" data-count="15">0</span><span class="stat-plus">+</span></span>
+        <span class="stat-label">Years of TM1 &amp; Planning Analytics</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat-num"><span class="count" data-count="3">0</span></span>
+        <span class="stat-label">Working languages — EN · DE · PL</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat-num"><span class="count" data-count="6">0</span></span>
+        <span class="stat-label">Service areas, end to end</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat-num"><span class="count" data-count="1">0</span></span>
+        <span class="stat-label">Point of contact. No agency overhead.</span>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="about section" id="about">
+      <p class="kicker mono" data-reveal><span class="kicker-dot" aria-hidden="true"></span><span>01 — Profile</span></p>
+
+      <div class="about-grid">
+        <div class="about-media">
+          <!-- EDIT ME: to use your photo instead, swap the src below, e.g. assets/portrait.jpg -->
+          <figure class="about-photo img-reveal">
+            <img src="assets/about.webp" alt="Tomasz Brzoza — freelance IBM Planning Analytics / TM1 architect, Munich" loading="lazy" decoding="async">
+            <figcaption class="mono">Tomasz Brzoza — Munich, DE</figcaption>
+          </figure>
+        </div>
+
+        <div class="about-copy">
+          <h2 class="section-title" data-reveal>The architect behind the cubes.</h2>
+          <p data-reveal>I’m Tomasz Brzoza, a freelance IBM Planning Analytics / TM1 architect based in Munich. For more than 15 years I’ve been building the models finance runs on — budgeting, forecasting, reporting and analysis for companies across the DACH region and beyond.</p>
+          <p data-reveal>As an independent consultant I stay hands-on from the first workshop to the last line of TurboIntegrator code. You get senior architecture, clean implementation and straight answers — in English, German or Polish.</p>
+
+          <dl class="facts" data-reveal>
+            <div class="fact">
+              <dt class="mono">Based in</dt>
+              <dd>Munich, Germany</dd>
+            </div>
+            <div class="fact">
+              <dt class="mono">Works</dt>
+              <dd>On-site DACH · Remote EU</dd>
+            </div>
+            <div class="fact">
+              <dt class="mono">Languages</dt>
+              <dd>EN · DE · PL</dd>
+            </div>
+            <div class="fact">
+              <dt class="mono">Focus</dt>
+              <dd>IBM Planning Analytics · TM1</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section class="services section" id="services">
+      <p class="kicker mono" data-reveal><span class="kicker-dot" aria-hidden="true"></span><span>02 — Services</span></p>
+      <div class="section-head">
+        <h2 class="section-title" data-reveal>What I do.</h2>
+        <p class="section-sub" data-reveal>End-to-end Planning Analytics — from the first whiteboard sketch to a platform your team actually enjoys using.</p>
+      </div>
+
+      <ul class="svc-list">
+        <li class="svc" data-reveal data-img="assets/svc-architecture.webp">
+          <button class="svc-head" type="button" aria-expanded="false">
+            <span class="svc-num mono">01</span>
+            <span class="svc-title">Architecture &amp; Model Design</span>
+            <span class="svc-icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc-body">
+            <div class="svc-body-inner">
+              <p>Dimensional design, cube architecture, data flows and integration blueprints. A model that mirrors how your business actually plans — and stays maintainable years later.</p>
+              <p class="svc-tags mono">Cube design · Dimensions · Data flows</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="svc" data-reveal data-img="assets/svc-planning.webp">
+          <button class="svc-head" type="button" aria-expanded="false">
+            <span class="svc-num mono">02</span>
+            <span class="svc-title">Planning, Budgeting &amp; Forecasting</span>
+            <span class="svc-icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc-body">
+            <div class="svc-body-inner">
+              <p>Driver-based planning, rolling forecasts, top-down / bottom-up workflows, scenario and version management built for real planning cycles.</p>
+              <p class="svc-tags mono">Driver-based · Rolling forecast · Scenarios</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="svc" data-reveal data-img="assets/svc-development.webp">
+          <button class="svc-head" type="button" aria-expanded="false">
+            <span class="svc-num mono">03</span>
+            <span class="svc-title">Development — TI, Rules &amp; Automation</span>
+            <span class="svc-icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc-body">
+            <div class="svc-body-inner">
+              <p>TurboIntegrator processes, rules and feeders, TM1 REST API and TM1py automation. Robust, documented, tested — not a black box.</p>
+              <p class="svc-tags mono">TurboIntegrator · Rules &amp; Feeders · REST API</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="svc" data-reveal data-img="assets/svc-migration.webp">
+          <button class="svc-head" type="button" aria-expanded="false">
+            <span class="svc-num mono">04</span>
+            <span class="svc-title">Migration &amp; Upgrades</span>
+            <span class="svc-icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc-body">
+            <div class="svc-body-inner">
+              <p>TM1 to Planning Analytics, on-premises to cloud, Perspectives to PAfE. A clear migration path with no data loss and no planning downtime.</p>
+              <p class="svc-tags mono">PA on Cloud · PAW · PAfE</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="svc" data-reveal data-img="assets/svc-performance.webp">
+          <button class="svc-head" type="button" aria-expanded="false">
+            <span class="svc-num mono">05</span>
+            <span class="svc-title">Performance &amp; Health Checks</span>
+            <span class="svc-icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc-body">
+            <div class="svc-body-inner">
+              <p>Slow cubes, memory-hungry feeders, endless TI chains — audited, profiled and fixed. Often the model doesn’t need a rebuild; it needs a specialist.</p>
+              <p class="svc-tags mono">Feeder tuning · Query performance · Audit</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="svc" data-reveal data-img="assets/svc-reporting.webp">
+          <button class="svc-head" type="button" aria-expanded="false">
+            <span class="svc-num mono">06</span>
+            <span class="svc-title">Reporting, Enablement &amp; Support</span>
+            <span class="svc-icon" aria-hidden="true"></span>
+          </button>
+          <div class="svc-body">
+            <div class="svc-body-inner">
+              <p>Workspace dashboards, Excel reporting with PAfE, admin coaching and hand-over. I build platforms your team can own — and stay available when it matters.</p>
+              <p class="svc-tags mono">PAW dashboards · Training · Support</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== Approach (pinned horizontal on desktop) ===== -->
+    <section class="approach section" id="approach">
+      <div class="apr-head">
+        <p class="kicker mono" data-reveal><span class="kicker-dot" aria-hidden="true"></span><span>03 — Approach</span></p>
+        <h2 class="section-title" data-reveal>How I work.</h2>
+      </div>
+
+      <div class="apr-wrap">
+        <div class="apr-track" id="aprTrack">
+          <article class="apr-card">
+            <span class="apr-num mono" aria-hidden="true">01</span>
+            <h3>Listen &amp; audit</h3>
+            <p>Every engagement starts with your planning process, not with technology. Workshops, model review, honest assessment of what’s worth keeping.</p>
+          </article>
+          <article class="apr-card">
+            <span class="apr-num mono" aria-hidden="true">02</span>
+            <h3>Architect</h3>
+            <p>A blueprint you can challenge: dimensions, cubes, data flows, security and sizing — documented before a single object is built.</p>
+          </article>
+          <article class="apr-card">
+            <span class="apr-num mono" aria-hidden="true">03</span>
+            <h3>Build &amp; iterate</h3>
+            <p>Short cycles, working software early. Finance sees real numbers in real cubes within weeks — not at the end of the project.</p>
+          </article>
+          <article class="apr-card">
+            <span class="apr-num mono" aria-hidden="true">04</span>
+            <h3>Enable &amp; hand over</h3>
+            <p>Documentation, training and admin coaching. Success is your team running the platform confidently — with me one call away.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Quote ===== -->
+    <section class="quote">
+      <div class="quote-bg" aria-hidden="true"><img src="assets/quote-bg.webp" alt="" loading="lazy" decoding="async"></div>
+      <p class="quote-text">Spreadsheets are where planning starts. Cubes are where it scales.</p>
+    </section>
+
+    <!-- ===== Toolbox ===== -->
+    <section class="stack section">
+      <p class="kicker mono" data-reveal><span class="kicker-dot" aria-hidden="true"></span><span>Toolbox</span></p>
+      <ul class="chips">
+        <li class="chip mono">IBM Planning Analytics</li>
+        <li class="chip mono">TM1 11 &amp; 12</li>
+        <li class="chip mono">PA Workspace</li>
+        <li class="chip mono">PA for Excel</li>
+        <li class="chip mono">TurboIntegrator</li>
+        <li class="chip mono">Rules &amp; Feeders</li>
+        <li class="chip mono">TM1 REST API</li>
+        <li class="chip mono">TM1py / Python</li>
+        <li class="chip mono">SQL</li>
+        <li class="chip mono">Git</li>
+      </ul>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="contact section" id="contact">
+      <p class="kicker mono" data-reveal><span class="kicker-dot" aria-hidden="true"></span><span>04 — Contact</span></p>
+
+      <h2 class="contact-title">
+        <span class="ht-line"><span class="split">Let’s talk.</span></span>
+      </h2>
+
+      <p class="contact-sub" data-reveal>A stuck migration, a slow model or a planning platform yet to be built — tell me where you are, and I’ll tell you honestly whether I can help.</p>
+
+      <div class="contact-actions" data-reveal>
+        <!-- EDIT ME: swap in a business address if you prefer -->
+        <a class="contact-mail" href="mailto:tom.brzy@gmail.com">tom.brzy@gmail.com</a>
+        <button class="copy-chip mono" type="button" data-copy="tom.brzy@gmail.com">Copy</button>
+      </div>
+
+      <div class="contact-links" data-reveal>
+        <a class="btn" href="https://www.linkedin.com/in/brzoza" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <span class="contact-loc mono">Munich · on-site DACH · remote EU</span>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <div class="footer-word-wrap" aria-hidden="true">
+    <div class="footer-word">TOMASZ&nbsp;BRZOZA</div>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-top">
+      <span class="mono">© <span id="year">2026</span> Tomasz Brzoza</span>
+      <span class="footer-role">IBM Planning Analytics / TM1 Architect</span>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        <a href="legal.html">Imprint</a>
+        <a href="legal.html#privacy">Privacy</a>
+      </div>
+      <span class="footer-geo mono">48.13°N 11.58°E</span>
+      <button class="to-top mono" id="toTop" type="button">Back to top ↑</button>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast mono" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- ===== Scripts (self-hosted, pinned versions) ===== -->
+  <script src="js/vendor/gsap.min.js"></script>
+  <script src="js/vendor/ScrollTrigger.min.js"></script>
+  <script src="js/vendor/lenis.min.js"></script>
+  <script src="js/main.js?v=2.3"></script>
+</body>
+</html>
