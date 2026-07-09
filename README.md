@@ -37,9 +37,14 @@ python -m http.server 4173
 # then open http://localhost:4173
 ```
 
-## Before go-live
+## Deployment
 
-- Replace every `https://your-domain.com` placeholder (in `index.html`,
-  `de/index.html`, `sitemap.xml`, `robots.txt`) with the real domain.
-- Fill in the legal details in `legal.html` (address, phone, VAT ID).
-- Submit both language versions to Google Search Console and upload the sitemap.
+Live at **https://cubeberg.com** (self-hosted on a Synology server).
+Canonical, hreflang, Open Graph and the sitemap all point to that domain.
+
+## Before / after go-live
+
+- Ensure HTTPS is served (valid certificate) — the privacy policy states it.
+- Set the Synology access-log rotation to ≤ 14 days to match the privacy policy.
+- Submit both language versions (`/` and `/de/`) to Google Search Console and
+  Bing Webmaster Tools, and upload `sitemap.xml`.

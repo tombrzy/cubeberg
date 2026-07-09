@@ -5,5 +5,4 @@ Allow: /
 # Keep legal boilerplate out of the index
 Disallow: /legal.html
 
-# EDIT ME: uncomment and set your real domain before go-live
-# Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://cubeberg.com/sitemap.xml
