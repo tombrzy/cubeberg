@@ -255,10 +255,10 @@
       // Hero intro
       .to('.hero-title .wi', { yPercent: 0, duration: 1.1, ease: 'power4.out', stagger: 0.09 }, '-=0.45')
       .from('.hero-eyebrow', { y: 24, autoAlpha: 0, duration: 0.8, ease: 'power3.out' }, '-=0.9')
-      .from('.hero-sub', { y: 30, autoAlpha: 0, duration: 0.8, ease: 'power3.out' }, '-=0.75')
+      .from('.hero-lead', { y: 28, autoAlpha: 0, duration: 0.8, ease: 'power3.out' }, '-=0.8')
+      .from('.hero-sub', { y: 30, autoAlpha: 0, duration: 0.8, ease: 'power3.out' }, '-=0.7')
       .from('.hero-ctas .btn', { y: 26, autoAlpha: 0, duration: 0.7, ease: 'power3.out', stagger: 0.08 }, '-=0.6')
       .from('.hero-avail', { autoAlpha: 0, duration: 0.6 }, '-=0.4')
-      .from('.dim-label', { autoAlpha: 0, y: 14, duration: 0.6, stagger: 0.07 }, '-=0.7')
       .from('.hero-bg', { autoAlpha: 0, duration: 1.6, ease: 'power2.out' }, '-=1.4')
       .from('.hero-foot', { autoAlpha: 0, duration: 0.6 }, '-=0.4');
   }
@@ -275,21 +275,6 @@
     gsap.to('.hero-bg img', {
       yPercent: 12,
       scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: 1 }
-    });
-
-    /* ----- Hero visual (dimension labels) scroll parallax ----- */
-    gsap.to('.hero-visual', {
-      y: 90,
-      scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: 1 }
-    });
-
-    // Floating dimension labels
-    $$('.dim-label').forEach((label, i) => {
-      gsap.to(label, {
-        y: i % 2 ? 12 : -12,
-        duration: 2.6 + i * 0.4,
-        repeat: -1, yoyo: true, ease: 'sine.inOut'
-      });
     });
 
     /* ----- Generic reveals ----- */

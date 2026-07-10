@@ -1,7 +1,12 @@
-# Tomasz Brzoza — IBM Planning Analytics / TM1 Consulting
+# Cubeberg — TM1 & IBM Planning Analytics Consulting
 
-Landing page for a freelance IBM Planning Analytics / TM1 architect based in Munich.
-Bilingual (English + German), no build step — plain HTML, CSS and JavaScript.
+Landing page for Cubeberg, the Munich-based TM1 & IBM Planning Analytics
+consultancy of Tomasz Brzoza. Bilingual (English + German), no build step —
+plain HTML, CSS and JavaScript.
+
+Design follows the Cubeberg brand book ("Planung mit Substanz."): Papier/Nebel
+surfaces, Tannengrün structure, Sand accents; Archivo + Source Serif 4 italic
++ IBM Plex Mono; the cube-massif mark as the visual anchor.
 
 ## Highlights
 
